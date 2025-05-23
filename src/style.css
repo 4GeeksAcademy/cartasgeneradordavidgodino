@@ -1,5 +1,80 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: white;
+body {
+   
+  font-family: 'Cinzel', serif;
+  background: linear-gradient(135deg, #0b6623, #006400);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  color: white;
+}
+
+.card {
+  width: 120px;
+  height: 180px;
+  border: 3px solid gold;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 24px;
+  color: black;
+  text-align: center;
+  background-image: radial-gradient(circle, #fff 70%, #f2f2f2 100%);
+}
+
+.card.red {
+  color: red;
+}
+
+.symbol {
+  font-size: 40px;
+}
+
+.inputs-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  color: white;
+}
+
+.casino-deco {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+input {
+  width: 60px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #c90f0f;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 4px #850a0a;
+  cursor: pointer;
+  transition: 0.1s ease;
+  box-shadow: 0 0 10px #ff1a1a, 0 0 20px #ff4d4d, 0 0 30px #ff8080;
+}
+
+
+button:hover {
+  transform: scale(1.05);
+  background-color: #e01b1b;
 }
